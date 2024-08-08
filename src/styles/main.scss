@@ -1,0 +1,52 @@
+@use "hero";
+@use "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: variables.$backgroundColor;
+}
+
+@mixin text($fontSize: 16px) {
+  font-size: $fontSize;
+  line-height: $fontSize + 10px;
+}
+
+@mixin title($fontSize: 40px) {
+  @include text($fontSize);
+  color: variables.$secondaryTextColor;
+}
+
+.text--big {
+  @include text(18px);
+}
+
+.text {
+  @include text;
+}
+
+.text--small {
+  @include text(12px);
+}
+
+.text-link {
+  @include text(18px);
+  color: variables.$secondaryTextColor;
+  text-decoration: underline;
+}
+
+.title--big {
+  @include title(44px);
+}
+
+.title {
+  @include title;
+}
+
+.title--small {
+  @include title(28px);
+}

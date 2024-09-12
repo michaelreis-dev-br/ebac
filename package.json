@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.77.8"
@@ -95,7 +95,7 @@
     "liftoff": "^5.0.0",
     "lodash.clonedeep": "^4.5.0",
     "map-cache": "^0.2.2",
-    "micromatch": "^4.0.7",
+    "micromatch": "^4.0.8",
     "mute-stdout": "^2.0.0",
     "normalize-path": "^3.0.0",
     "now-and-later": "^3.0.0",
